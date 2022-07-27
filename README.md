@@ -15,6 +15,7 @@ Able to convert Arabic numerals to Roman Numerals and vice versa.
 ### React Native
 
 ```javascript
+cd ReactNative
 yarn install
 yarn ios // for iOS
 yarn android // for Android
@@ -22,6 +23,7 @@ yarn android // for Android
 ### Ionic React
 
 ```javascript
+cd IonicReactApp
 npm install
 npx ionic serve
 ```
