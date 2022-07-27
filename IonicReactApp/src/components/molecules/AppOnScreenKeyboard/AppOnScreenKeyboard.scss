@@ -1,0 +1,39 @@
+.AppOnScreenKeyboard {
+  display: flex;
+  flex-direction: row;
+  flex: 3;
+  height: 100%;
+
+  &_Row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+  &_Numbers {
+    display: flex;
+    flex: 3;
+    height: 100%;
+
+    .AppButton {
+      margin-inline: 0px !important;
+      margin: 0px !important;
+    }
+  }
+  &_Operations {
+    display: flex;
+    flex: 1;
+    height: 100%;
+
+    .AppButton {
+      margin-inline: 0px !important;
+      margin: 0px !important;
+
+      &.button-solid {
+        --background: #eb5286 !important;
+        --background-activated: #eb5286 !important;
+        --background-focused: #cf4876;
+        --background-hover: #ed6392;
+      }
+    }
+  }
+}

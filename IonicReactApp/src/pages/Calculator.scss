@@ -1,0 +1,11 @@
+.Calculator {
+  &_Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    --background: var(--ion-color-dark);
+    
+  }
+}

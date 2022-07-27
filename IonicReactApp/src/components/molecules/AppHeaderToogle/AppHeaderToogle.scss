@@ -1,0 +1,12 @@
+.AppHeaderToogle {
+  background-color: var(--ion-color-dark);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px 22px;
+
+  ion-toggle {
+    --background: #ffffff;
+    --handle-background: var(--ion-color-primary);
+  }
+}
